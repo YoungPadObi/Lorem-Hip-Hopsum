@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>Lorem Hip Hopsum</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <meta name="viewport" content="initial-scale=1">
+</head>
+<body>
+	<div class="jumbotron">
+		<h1>Lorem Hip Hopsum<br>
+    </h1>
+	</div>
+  
+  <br>
+	<div id="searchArea">
+		<input id="artistSearch" placeholder="Type an Artist" /><br><br>
+		<button onclick="getLyrics()">Get Me Some Dope Placeholder Text!</button>
+		<button id="ghost" onclick="getLyricsNow()">Ghost</button>	
+		<form id="js-form">
+            <label for="search-term">Get Me Some Dope Videos By</label>
+            <input type="text" name="search-term" id="js-search-term" required>
+
+            <label for="max-results">Maximum results to return</label>
+            <input type="number" name="max-results" id="js-max-results" value="10">
+
+            <input type="submit" value="Go!">
+        </form>
+
+        <p id="js-error-message" class="error-message"></p>
+        <section id="results" class="hidden">
+          <h2>Search results</h2>
+          <ul id="results-list">
+          </ul>
+        </section>
+	</div>
+
+	<div id="lyrics">
+		
+	</div>
+<body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
